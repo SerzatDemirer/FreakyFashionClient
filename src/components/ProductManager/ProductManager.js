@@ -25,7 +25,7 @@ function ProductManager() {
       <ul>
         {products.map((product, index) => (
           <li key={index}>
-            {product.name} - {product.SKU} - {product.description} -{" "}
+            {product.name} - {product.sku} - {product.description} -{" "}
             {product.price}
           </li>
         ))}

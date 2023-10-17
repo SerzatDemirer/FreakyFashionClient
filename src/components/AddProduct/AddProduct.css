@@ -9,11 +9,11 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-input[type="text"],
-input[type="number"] {
+input {
   padding: 10px;
   margin: 10px;
-  border: 4px solid #ae7575;
+  background-color: bisque;
+  border: 4px solid #ccc;
   border-radius: 10px;
   width: 100%;
   max-width: 300px;
@@ -22,7 +22,7 @@ input[type="number"] {
 
 button {
   padding: 8px 25px;
-  background-color: #ba934a;
+  background-color: #948b8b;
   color: white;
   border: none;
   border-radius: 10px;
